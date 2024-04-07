@@ -378,6 +378,9 @@ footer .profile ul li .subject {
     display: inline-block;
     margin-right: 30px;
 }
+footer .profile ul li a {
+    color: #8e8b8b;
+}
 footer .profile ul li .cont {
     color: #8e8b8b;
     font-family: 'Pretendard-Light';
