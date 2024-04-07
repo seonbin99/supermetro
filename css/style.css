@@ -796,6 +796,7 @@ footer .copy .footer_menu li a span {
     }
     .section_sub .contents .centerbox .title {
         gap: 1.7vw;
+        padding: 0 20px;
     }
     .section_sub .contents .centerbox h3 {
         font-size: 20px;
