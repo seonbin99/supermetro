@@ -650,6 +650,9 @@ footer .copy .footer_menu li a span {
 
 /* 태블릿 */
 @media screen and (max-width: 914px) {
+    header .centerbox h1 {
+        margin-left: 20px;
+    }
     header .centerbox nav .langbox {
         display: none;
     }
@@ -710,6 +713,20 @@ footer .copy .footer_menu li a span {
         font-size: 16px;
         background: none;
     }
+
+    section h4 {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    section h3 {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    section a.viewmore {
+        margin-left: 20px;
+    }
+
+
 
     footer {
         padding: 9vw 0;
@@ -793,6 +810,10 @@ footer .copy .footer_menu li a span {
     .section_sub .contents .centerbox .since li a {
         padding: 0 3.9vw;
     }
+    .section_sub .contents .centerbox .cont {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
     .section_sub .contents .centerbox .cont .yearbox .minibox .year {
         font-size: 28px;
         padding: 70px 10vw 70px 0;
@@ -813,7 +834,6 @@ footer .copy .footer_menu li a span {
 /* 모바일 */
 @media screen and (max-width:640px) {
     header nav .ham {
-        margin-right: 0;
     }
     #visual .textbox h2 {
         font-size: 30px;
@@ -843,7 +863,9 @@ footer .copy .footer_menu li a span {
         font-size: 14px;
         margin-top: 20px;
     }
-    #section1 figure {flex-grow: 1;}
+    #section1 figure {
+        flex-grow: 1;
+    }
     #section2 .centerbox {
 
     }
@@ -886,6 +908,10 @@ footer .copy .footer_menu li a span {
     #section3 ul.imgbox li .icon li {
         width: 40vw;
         height: 40vw;
+    }
+    footer {
+        padding: 9vw 20px;
+        box-sizing: border-box;
     }
     footer .centerbox .depth1 {
         flex-direction: column;
